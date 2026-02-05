@@ -1,0 +1,16 @@
+Nesting: I nested contacts within traveler. I think it improved organization by having 
+a dedicated key for contacts rather than lumping them in with the traveler name.
+
+Arrays: I used arrays for destinations and activities to properly nest multiple objects. 
+Believe me, I tried without it, it didn't work. This was the only option lol. But now
+it's nice and tidy!
+
+Scalability: The JSON structure can easily be expanded by inserting a new key anywhere.
+For this assignment, I thought it was super simple just copy/pasting the activities array,
+and just writing in a new key between previous keys as well.
+
+Real-World Application: This data would be super useful in a travel app or API by logging
+user data for example, hosting all of it under one object for one account. I could also 
+imagine an invitation-type thing when specifically imagining an itinerary. Everybody
+would have access to all of the travel data so they know every single detail in one access
+point.
